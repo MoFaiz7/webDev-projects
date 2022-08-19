@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.container{
+    background-color: rgba(88, 84, 84, 0.486);
+    border: 2px solid rgb(255, 255, 255);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.time{
+    width: 30vw;
+    font-family: DS-Digital;
+    font-size: 50px;
+    text-align: center;
+    color:white;
+    display: block;
+}
+
+.bg{
+    background-color: rgba(88, 84, 84, 0.486);
+    border: 5px solid rgb(45, 207, 80);
+    border-radius: 300px;
+    padding: 165px 0px;
+    transition: 0.5s ease-in-out;
+}
+
+.bg:hover{
+    border: 15px solid rgb(40, 202, 181); 
+}
+
+.dd{
+    display: block;
+    text-align: center;
+    width: 30vw;
+    font-family: Rosemary;
+    font-size: 25px;
+    color:white;
+}
+
+.txt{
+    position: absolute;
+    top:0;
+    left: 20px;
+    color: white;
+    font-family: Ubuntu;
+}
+.txt p{
+    font-size: 30px;
+
+}
+
+
+
+.setTime2{
+    position: absolute;
+    right: 123px;
+    bottom: 55px;
+    font-family: Ubuntu;
+    background-color: rgba(128, 128, 128, 0.603);
+    border-style: none;
+    border: 2px solid white;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 7px;
+    color: white;
+    /* font-size: 22px; */
+    transition: 0.5s;
+}
+
+
+.btn{
+    position: absolute;
+    right: 123px;
+    bottom: 15px;
+    cursor: pointer;
+    font-family: Ubuntu;
+    background-color: rgb(238, 43, 43);
+    border-style: none;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 7px;
+    color: white;
+    /* font-size: 22px; */
+    transition: 0.3s;
+}
+.btn:hover{
+border-radius: 25px;}
+
+.btn2{
+    position: absolute;
+    right: 246px;
+    bottom: 15px;
+    cursor: pointer;
+    font-family: Ubuntu;
+    background-color: rgb(55, 231, 108);
+    border-style: none;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 7px;
+    color: white;
+    /* font-size: 22px; */
+    transition: 0.3s;
+}
+.btn2:hover{
+border-radius: 25px;}
+
+::placeholder{
+color: white;
+font-family: Ubuntu;
+}

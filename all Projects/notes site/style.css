@@ -1,0 +1,39 @@
+.txt{
+    font-family: Ubuntu;
+    font-size: 10px;
+}
+
+
+.time{
+    width: 30vw;
+    font-family: DS-Digital;
+    font-size: 25px;
+    text-align: center;
+    color:rgb(0, 0, 0);
+    display: block;
+}
+
+
+
+
+
+.dd{
+    display: block;
+    text-align: center;
+    width: 30vw;
+    font-family: Rosemary;
+    font-size: 10px;
+    color:rgb(0, 0, 0);
+}
+
+
+
+
+.cont{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: 2px solid rgb(33, 153, 209);
+    border-radius: 5px;
+    width: 400px;
+}

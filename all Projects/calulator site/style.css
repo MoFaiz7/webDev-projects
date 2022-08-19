@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #232426 ;
+    background-size: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.bdy{
+    
+    border-radius: 5px;
+    display: block;
+    background-color: #04BF68;
+    width: 50%;
+    margin: 5em auto;
+    
+    padding: 50px;
+}
+
+button{
+    border-style: none;
+    border: 2px solid grey;
+    border-radius: 10px;
+    background-color: grey;
+    height: 44px;
+    width: 5.2vw;
+    transition: 0.2s;
+    font-size: 1rem;
+    font-weight: 200;
+    margin: 2px;
+}
+
+button:hover{
+    border-color: white;
+    background-color: rgb(10, 152, 196);
+    color: white;
+    box-shadow: 0 0 5px 5px rgb(24, 152, 211);
+}
+
+.btns{
+    width: 46%;
+    margin: auto;
+    background-color: rgb(68, 68, 68);
+    padding: 40px 25px;
+    border-radius: 20px;
+
+}
+
+#tbl{
+    background-color: rgb(68,68,68);
+}
+
+td{
+    background-color: rgb(68,68,68);
+} 

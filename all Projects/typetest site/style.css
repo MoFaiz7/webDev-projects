@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Ubuntu;
+    transition: 0.5s;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    border: 2px solid red;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container{
+    height: 100vh;
+}
+
+.main{
+    width: 60%;
+    margin: auto;
+}
+
+#writable{
+    padding-top: 25px;
+    display: none;
+    transition: 0.5s;
+}
+
+.start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    transition: 0.5s;
+
+}
+
+.btn{
+    font-family: Ubuntu;
+    font-weight: bold;
+    margin: 10px;
+    background-color: rgb(72, 149, 236);
+    color: white;
+    border-style: none;
+    padding: 7px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid rgb(72, 149, 236);
+    transition: 0.5s;
+}
+
+#write{
+    padding: 7px 10px;
+    font-family: Ubuntu;
+    font-weight: bold;
+    margin: 10px;
+    color: black; 
+    border-style: none;
+    padding: 7px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid rgb(72, 149, 236);
+    transition: 0.5s;
+
+}
+
+#time{
+    font-family: Ubuntu;
+    font-weight: bold;
+    margin: 10px;
+    color: black; 
+    transition: 0.5s;
+
+    border-style: none;
+    padding: 7px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid rgb(72, 149, 236);
+}
+
+.text{
+    font-family: Ubuntu;
+    font-weight: bold;
+    margin: 10px;
+    color: black; 
+    height: 20%;
+    border-style: none;
+    padding: 7px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid rgb(72, 149, 236);
+    transition: 0.5s;
+
+}
+
+.btn:hover{
+    /* padding: 5px 8px; */
+    border-radius: 25px;
+    border: 2px solid rgb(109, 183, 253);
+}
+
+#result{
+    display: none;
+    /* width: 20%; */
+    text-align: center;
+    font-family: Ubuntu;
+    font-weight: bold;
+    margin: 10px;
+    color: black; 
+    height: 20%;
+    border-style: none;
+    padding: 7px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid rgb(72, 149, 236);
+    transition: 0.5s;
+
+}
+
+.danger{
+    visibility: hidden;
+    background-color: rgb(236, 61, 61);
+    border: 2px solid black;
+    border-style: none;
+    height: 10px;
+    width: 20%;
+    margin: auto;
+    border-radius: 5px;
+    transition: 0.5s;
+}
